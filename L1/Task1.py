@@ -3,15 +3,15 @@
 import os
 def clear(): return os.system('cls')
 
-clear()
 
+clear()
 
 
 s = int(input("Введите номер дня недели "))
 
-if 6<=s<=7:
+if 6 <= s <= 7:
     print("Это выходной день!")
-elif 1<=s<=5:
+elif 1 <= s <= 5:
     print("Это рабочий день =(")
 else:
     print("Нет такого дня недели, попробуй еще разок!")
